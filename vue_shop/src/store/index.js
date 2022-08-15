@@ -13,8 +13,7 @@ export default new Vuex.Store({
       if (status) {
         state.keepAliveList.push(name);
       } else {
-        console.log("123123123213213")
-
+        console.log("123123123123213213213213")
         const index = state.keepAliveList.indexOf(name);
         index >= 0 && state.keepAliveList.splice(index, 1);
       }
