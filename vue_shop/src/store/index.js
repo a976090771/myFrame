@@ -16,6 +16,10 @@ export default new Vuex.Store({
         const index = state.keepAliveList.indexOf(name);
         index >= 0 && state.keepAliveList.splice(index, 1);
       }
+    },
+
+    data(){
+       console.log("20220815")
     }
   },
   actions: {
